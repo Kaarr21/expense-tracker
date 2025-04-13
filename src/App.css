@@ -3,9 +3,12 @@
 }
 
 html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* Light background for the whole page */
+  background-color: #f9f9f9;
   color: #222;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
@@ -13,6 +16,9 @@ html, body {
 }
 
 #root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -50,7 +56,6 @@ html, body {
   }
 }
 
-/* Card Style */
 .card {
   padding: 2em;
   background-color: #ffffff;
@@ -58,18 +63,15 @@ html, body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Text Links */
 .read-the-docs {
   color: #555;
 }
 
-/* Form Container */
 .expense-form-container {
   text-align: center;
   margin-top: 20px;
 }
 
-/* Form Titles */
 .form-title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -81,7 +83,6 @@ html, body {
   margin-bottom: 20px;
 }
 
-/* Form Layout */
 .form {
   max-width: 600px;
   margin: 0 auto;
@@ -94,7 +95,6 @@ html, body {
   justify-content: space-between;
 }
 
-/* Input Styling */
 .form-input {
   width: 100%;
   padding: 10px;
@@ -109,7 +109,6 @@ html, body {
   outline: none;
 }
 
-/* Submit Button */
 .submit-button {
   padding: 12px 24px;
   background-color: #3182ce;
