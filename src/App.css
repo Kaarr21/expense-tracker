@@ -3,8 +3,12 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Logo Styles */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,10 +16,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #94bfff);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #61dafb);
 }
 
 @keyframes logo-spin {
@@ -33,19 +37,26 @@
   }
 }
 
+/* Card Style */
 .card {
   padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+/* Text Links */
 .read-the-docs {
-  color: #888;
+  color: #555;
 }
 
+/* Form Container */
 .expense-form-container {
   text-align: center;
   margin-top: 20px;
 }
 
+/* Form Titles */
 .form-title {
   font-size: 1.5rem;
   font-weight: 600;
@@ -53,10 +64,11 @@
 }
 
 .form-subtitle {
-  color: #a0aec0;
+  color: #777;
   margin-bottom: 20px;
 }
 
+/* Form Layout */
 .form {
   max-width: 600px;
   margin: 0 auto;
@@ -69,13 +81,14 @@
   justify-content: space-between;
 }
 
+/* Input Styling */
 .form-input {
   width: 100%;
   padding: 10px;
-  background-color: #2d3748;
-  border: 1px solid #4a5568;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  color: white;
+  color: #333;
 }
 
 .form-input:focus {
@@ -83,6 +96,7 @@
   outline: none;
 }
 
+/* Submit Button */
 .submit-button {
   padding: 12px 24px;
   background-color: #3182ce;
@@ -91,8 +105,19 @@
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .submit-button:hover {
-  background-color: #2b6cb0;
+  background-color: #63b3ed;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
