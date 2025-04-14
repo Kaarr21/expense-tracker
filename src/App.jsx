@@ -6,12 +6,12 @@ import ExpenseTable from './components/ExpenseTable';
 
 function App() {
   const [expenses, setExpenses] = useState([
-    { id: 1, expense: 'Ugali Matumbo', description: "Wednesday's Lunch", category: 'food' },
-    { id: 2, expense: 'KFC Tickets', description: 'power tickets', category: 'entertainment' },
-    { id: 3, expense: 'Buy shoes', description: 'add to my shoe collection', category: 'shopping' },
-    { id: 4, expense: 'Buy book', description: 'add to my book collection', category: 'education' },
-    { id: 5, expense: 'Pay Loan', description: 'bank loan repayment', category: 'bills' },
-    { id: 6, expense: 'Food', description: 'grocery shopping', category: 'food' }
+    { id: 1, expense: 'Invisible Locs', description: "Get my hair done", category: 'Maintenance' },
+    { id: 2, expense: 'Sharwarma', description: 'Cravings', category: 'Food' },
+    { id: 3, expense: 'Buy shoes', description: 'Add to my shoe collection', category: 'shopping' },
+    { id: 4, expense: 'Buy a book', description: 'Add to my book collection', category: 'education' },
+    { id: 5, expense: 'Pay Loan', description: 'Bank loan repayment', category: 'bills' },
+    { id: 6, expense: 'Nails', description: 'Simple nail gel', category: 'Maintenance' }
   ]);
   
   const [searchTerm, setSearchTerm] = useState('');
