@@ -26,10 +26,6 @@ A sleek, responsive React app for tracking your daily expenses. Built to help yo
 
 ## Screenshots
 
-> *(Add screenshots of your app here once you're ready)*  
-> *(You can drag them into this file or use Markdown image links)*
-
----
 
 ## Installation & Setup
 
